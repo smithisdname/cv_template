@@ -1,0 +1,100 @@
+body, html {
+  box-sizing: border-box;
+  background: #E5E5E5;
+}
+
+.container {
+  position: relative;
+  width: 595px;
+  height: 842px;
+  background: #ffffff;
+  margin: auto;
+}
+
+.top_line {
+  position: absolute;
+  width: 595px;
+  height: 4px;
+  left: 0px;
+  top: 0px;
+  background: #101214;
+}
+
+.avatar {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  left: 407px;
+  /* top: 36px; */
+  top: calc(50% - 60px / 2 - 343px);
+  border-radius: 50%;
+  background: url('elpacific.png');
+  filter: drop-shadow(0px 2px 4px rgba(16, 18, 20, 0.08));
+}
+
+.main_title {
+  position: absolute;
+  height: 60px;
+  left: 8.07%;
+  right: 58.82%;
+  top: calc(50% - 60px / 2 - 343px);
+  font-family: Arial;
+  font-size: 24px;
+  line-height: 28px;
+  color: #101214;
+}
+
+.second_title {
+  display: block;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.xp {
+  position: absolute;
+  height: 630px;
+  left: 8.07%;
+  right: 35.63%;
+  top: calc(50% - 630px / 2 + 34px);
+  font-family: Arial;
+  font-size: 11px;
+  line-height: 18px;
+  /* margin-top: 32px; */
+}
+
+.xp_title {
+  font-size: 7px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #73808d;
+}
+
+h3 {
+  margin: 0;
+}
+
+.period {
+  font-size: 9px;
+  line-height: 18px;
+  color: #73808d;
+}
+
+.job, .school, .info {
+  margin-bottom: 20px;
+}
+
+.infos {
+  position: absolute;
+  height: 558px;
+  left: 68.4%;
+  right: 8.07%;
+  top: calc(50% - 558px / 2 - 2px);
+  font-family: Arial;
+  font-size: 11px;
+  line-height: 18px;
+  /* or 164% */
+  color: #73808d;
+}
+
+
