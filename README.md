@@ -21,5 +21,5 @@ You might need to sign up/login with your google account to be able to view that
 
 ### Deployed on Vercel
 
-https://cv-template-wine.vercel.app/
+https://cv-template-elpacificmb.vercel.app/
 
